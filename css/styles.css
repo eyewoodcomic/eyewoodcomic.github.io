@@ -58,3 +58,18 @@ nav h1 {
 nav h2 {
   margin-left: 2rem;
 }
+
+section.animation > div
+{
+  display: flex;
+  flex-flow: row;
+  width: 100%;
+  justify-content: flex-start;
+  align-items: baseline;
+  align-content: center;
+}
+
+section.animation > div img
+{
+  width: 50%;
+}
